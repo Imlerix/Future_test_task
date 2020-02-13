@@ -9,6 +9,7 @@ import FormComponent from './components/FormComponent';
 import TableComponent from "./components/TableComponent";
 import Container from "@material-ui/core/Container";
 import DetailInfoComponent from "./components/DetailInfoComponent";
+import SwitcherDataSize from "./components/SwitcherDataSize";
 
 const store = initStore();
 
@@ -17,7 +18,10 @@ function App() {
       <Provider store={store}>
         <Container maxWidth="md"
                    className={styles.App}>
-                   <FormComponent />
+                   <div className={styles.App_functionalPanel}>
+                       <FormComponent />
+                       <SwitcherDataSize />
+                   </div>
                    <TableComponent />
                    <DetailInfoComponent />
         </Container>

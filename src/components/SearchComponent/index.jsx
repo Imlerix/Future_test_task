@@ -19,11 +19,12 @@ class SearchComponent extends React.Component{
 
     render() {
         return(
-            <Toolbar className={style.SearchComponentContainer}>
+            <div>
                 <TextField onChange={this.onChangeInput}
+                           disabled={this.props.disabled}
                            value={this.props.value}
                            label="Поиск"/>
-            </Toolbar>
+            </div>
         )
     }
 }
@@ -31,6 +32,7 @@ class SearchComponent extends React.Component{
 SearchComponent.propTypes = {
     value: PropTypes.string.isRequired,
     listener: PropTypes.func.isRequired,
+    disabled: PropTypes.bool.isRequired,
 };
 
 export default SearchComponent;

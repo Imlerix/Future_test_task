@@ -46,3 +46,21 @@ export function addUserInTable(userObj) {
         user: userObj
     }
 }
+
+export function switchDataLoader(value) {
+    return {
+        type: types.SWITCH_DATA_LOADER,
+        value,
+    }
+}
+
+export function switchDataSize() {
+    return async (dispatch, getState) => {
+        dispatch(switchDataLoader(false));
+        dispatch({
+            type: types.SWITCH_DATA_SIZE,
+        })
+        const dataSize = getState().table.isBigDataSize ? 1000 : 32;
+        dispatch(getRows(dataSize));
+    }
+}

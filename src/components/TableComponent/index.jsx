@@ -15,6 +15,7 @@ import TableBody from "@material-ui/core/TableBody";
 import TablePagination from "@material-ui/core/TablePagination";
 import CircularProgress from "@material-ui/core/CircularProgress";
 import TableSortLabel from '@material-ui/core/TableSortLabel';
+import {Toolbar} from "@material-ui/core";
 
 class TableComponent extends React.Component{
     constructor(props){
@@ -50,7 +51,7 @@ class TableComponent extends React.Component{
     };
 
     componentDidMount() {
-        this.TableActions.getRows(32);
+        this.TableActions.getRows(this.props.table.isBigDataSize ? 1000 : 32);
     }
 
     searchListener = (value) => {
@@ -134,7 +135,14 @@ class TableComponent extends React.Component{
     render() {
         return(
             <Paper className={style.TableComponentContainer}>
-                <SearchComponent value={this.state.searchFilter} listener={this.searchListener} />
+                <Toolbar className={style.TableComponent_toolbar}>
+                    <SearchComponent value={this.state.searchFilter}
+                                     disabled={!this.props.table.isLoadedRows}
+                                     listener={this.searchListener} />
+                    <span>
+                        Выбранный объём данных: <b>{this.props.table.isBigDataSize ? 'большой' : 'малый'}</b>.
+                    </span>
+                </Toolbar>
                 <TableContainer>
                     <Table size="small"
                            stickyHeader>

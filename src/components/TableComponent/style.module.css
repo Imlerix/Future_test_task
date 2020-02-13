@@ -11,3 +11,9 @@
 .TableComponent_tableRow{
     cursor: pointer;
 }
+
+.TableComponent_toolbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
