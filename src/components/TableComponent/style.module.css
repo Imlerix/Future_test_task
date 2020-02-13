@@ -1,0 +1,13 @@
+.TableComponentContainer{
+    margin: 10px 0;
+}
+
+.TableComponent_loading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.TableComponent_tableRow{
+    cursor: pointer;
+}

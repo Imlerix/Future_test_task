@@ -1,0 +1,9 @@
+.DetailInfoComponentContainer{
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.DetailInfoComponentNotLoaded{
+    padding: 15px;
+}
