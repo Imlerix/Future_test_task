@@ -11,7 +11,7 @@ import Typography from "@material-ui/core/Typography";
 import CardActions from "@material-ui/core/CardActions";
 import Button from "@material-ui/core/Button";
 
-class DetailInfoComponent extends React.Component{
+export class DetailInfoComponent extends React.Component{
     constructor(props){
         super(props)
         this.state = {}

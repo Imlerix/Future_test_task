@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SNAPSHOT renders correctly 1`] = `
+<div
+  className="DetailInfoComponentContainer"
+>
+  <WithStyles(ForwardRef(Card))>
+    <WithStyles(ForwardRef(CardContent))>
+      <WithStyles(ForwardRef(Typography))
+        component="h2"
+        gutterBottom={true}
+        variant="h5"
+      >
+        Выбран пользователь: 
+        Ivan
+         
+        Ivanov
+      </WithStyles(ForwardRef(Typography))>
+      <WithStyles(ForwardRef(Typography))
+        color="textSecondary"
+        component="p"
+        variant="body2"
+      >
+        <b>
+          Описание: 
+        </b>
+        Desc
+        <br />
+        <br />
+        <b>
+          Адрес проживания: 
+        </b>
+        arbatskaya 100
+        <br />
+        <b>
+          Город: 
+        </b>
+        Moskow
+        <br />
+        <b>
+          Провинция/штат: 
+        </b>
+        Moskow obl
+        <br />
+        <b>
+          Индекс: 
+        </b>
+        123
+      </WithStyles(ForwardRef(Typography))>
+    </WithStyles(ForwardRef(CardContent))>
+    <WithStyles(ForwardRef(CardActions))>
+      <WithStyles(ForwardRef(Button))
+        color="primary"
+        onClick={[Function]}
+        size="small"
+      >
+        Скрыть детальную информацию
+      </WithStyles(ForwardRef(Button))>
+    </WithStyles(ForwardRef(CardActions))>
+  </WithStyles(ForwardRef(Card))>
+</div>
+`;

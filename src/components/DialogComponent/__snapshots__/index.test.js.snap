@@ -1,0 +1,239 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SNAPSHOT renders correctly 1`] = `
+<WithStyles(ForwardRef(Dialog))
+  aria-labelledby="simple-dialog-title"
+  onClose={[Function]}
+  open={true}
+>
+  <WithStyles(ForwardRef(DialogTitle))>
+    Добавить нового пользователя
+  </WithStyles(ForwardRef(DialogTitle))>
+  <WithStyles(ForwardRef(List))>
+    <WithStyles(ForwardRef(ListItem))
+      key="0"
+    >
+      <WithStyles(ForwardRef(TextField))
+        className="DialogComponent_id"
+        error={false}
+        fullWidth={true}
+        helperText="Только цифры"
+        id={0}
+        label="ID"
+        name="id"
+        onChange={[Function]}
+        value=""
+      />
+    </WithStyles(ForwardRef(ListItem))>
+    <WithStyles(ForwardRef(ListItem))
+      key="1"
+    >
+      <WithStyles(ForwardRef(TextField))
+        className="DialogComponent_firstName"
+        error={false}
+        fullWidth={true}
+        helperText="Только буквы без пробелов"
+        id={1}
+        label="Имя"
+        name="firstName"
+        onChange={[Function]}
+        value=""
+      />
+    </WithStyles(ForwardRef(ListItem))>
+    <WithStyles(ForwardRef(ListItem))
+      key="2"
+    >
+      <WithStyles(ForwardRef(TextField))
+        className="DialogComponent_lastName"
+        error={false}
+        fullWidth={true}
+        helperText="Только буквы без пробелов"
+        id={2}
+        label="Фамилия"
+        name="lastName"
+        onChange={[Function]}
+        value=""
+      />
+    </WithStyles(ForwardRef(ListItem))>
+    <WithStyles(ForwardRef(ListItem))
+      key="3"
+    >
+      <WithStyles(ForwardRef(TextField))
+        className="DialogComponent_email"
+        error={false}
+        fullWidth={true}
+        helperText="Например: qwerty@gmail.com"
+        id={3}
+        label="Эл. почта"
+        name="email"
+        onChange={[Function]}
+        value=""
+      />
+    </WithStyles(ForwardRef(ListItem))>
+    <WithStyles(ForwardRef(ListItem))
+      key="4"
+    >
+      <WithStyles(ForwardRef(TextField))
+        className="DialogComponent_phone"
+        error={false}
+        fullWidth={true}
+        helperText="Например +79991235678 или 89991235678"
+        id={4}
+        label="Моб. телефон"
+        name="phone"
+        onChange={[Function]}
+        value=""
+      />
+    </WithStyles(ForwardRef(ListItem))>
+  </WithStyles(ForwardRef(List))>
+  <WithStyles(ForwardRef(Tooltip))
+    aria-label="save"
+    disableHoverListener={false}
+    style={
+      Object {
+        "width": "100%",
+      }
+    }
+    title="Сначала заполните поля!"
+  >
+    <div
+      style={
+        Object {
+          "width": "100%",
+        }
+      }
+    >
+      <WithStyles(ForwardRef(Button))
+        color="primary"
+        disabled={true}
+        fullWidth={true}
+        onClick={[Function]}
+        size="large"
+        startIcon={<UNDEFINED />}
+        variant="contained"
+      >
+        Добавить в таблицу
+      </WithStyles(ForwardRef(Button))>
+    </div>
+  </WithStyles(ForwardRef(Tooltip))>
+</WithStyles(ForwardRef(Dialog))>
+`;
+
+exports[`renders correctly 1`] = `
+<WithStyles(ForwardRef(Dialog))
+  aria-labelledby="simple-dialog-title"
+  onClose={[Function]}
+  open={true}
+>
+  <WithStyles(ForwardRef(DialogTitle))>
+    Добавить нового пользователя
+  </WithStyles(ForwardRef(DialogTitle))>
+  <WithStyles(ForwardRef(List))>
+    <WithStyles(ForwardRef(ListItem))
+      key="0"
+    >
+      <WithStyles(ForwardRef(TextField))
+        className="DialogComponent_id"
+        error={false}
+        fullWidth={true}
+        helperText="Только цифры"
+        id={0}
+        label="ID"
+        name="id"
+        onChange={[Function]}
+        value=""
+      />
+    </WithStyles(ForwardRef(ListItem))>
+    <WithStyles(ForwardRef(ListItem))
+      key="1"
+    >
+      <WithStyles(ForwardRef(TextField))
+        className="DialogComponent_firstName"
+        error={false}
+        fullWidth={true}
+        helperText="Только буквы без пробелов"
+        id={1}
+        label="Имя"
+        name="firstName"
+        onChange={[Function]}
+        value=""
+      />
+    </WithStyles(ForwardRef(ListItem))>
+    <WithStyles(ForwardRef(ListItem))
+      key="2"
+    >
+      <WithStyles(ForwardRef(TextField))
+        className="DialogComponent_lastName"
+        error={false}
+        fullWidth={true}
+        helperText="Только буквы без пробелов"
+        id={2}
+        label="Фамилия"
+        name="lastName"
+        onChange={[Function]}
+        value=""
+      />
+    </WithStyles(ForwardRef(ListItem))>
+    <WithStyles(ForwardRef(ListItem))
+      key="3"
+    >
+      <WithStyles(ForwardRef(TextField))
+        className="DialogComponent_email"
+        error={false}
+        fullWidth={true}
+        helperText="Например: qwerty@gmail.com"
+        id={3}
+        label="Эл. почта"
+        name="email"
+        onChange={[Function]}
+        value=""
+      />
+    </WithStyles(ForwardRef(ListItem))>
+    <WithStyles(ForwardRef(ListItem))
+      key="4"
+    >
+      <WithStyles(ForwardRef(TextField))
+        className="DialogComponent_phone"
+        error={false}
+        fullWidth={true}
+        helperText="Например +79991235678 или 89991235678"
+        id={4}
+        label="Моб. телефон"
+        name="phone"
+        onChange={[Function]}
+        value=""
+      />
+    </WithStyles(ForwardRef(ListItem))>
+  </WithStyles(ForwardRef(List))>
+  <WithStyles(ForwardRef(Tooltip))
+    aria-label="save"
+    disableHoverListener={false}
+    style={
+      Object {
+        "width": "100%",
+      }
+    }
+    title="Сначала заполните поля!"
+  >
+    <div
+      style={
+        Object {
+          "width": "100%",
+        }
+      }
+    >
+      <WithStyles(ForwardRef(Button))
+        color="primary"
+        disabled={true}
+        fullWidth={true}
+        onClick={[Function]}
+        size="large"
+        startIcon={<UNDEFINED />}
+        variant="contained"
+      >
+        Добавить в таблицу
+      </WithStyles(ForwardRef(Button))>
+    </div>
+  </WithStyles(ForwardRef(Tooltip))>
+</WithStyles(ForwardRef(Dialog))>
+`;

@@ -11,7 +11,7 @@ export const initStore = (initialState = {}) => {
         initialState,
         compose(
             applyMiddleware(thunk),
-            composeWithDevTools(),
+            // composeWithDevTools(),
         )
     )
 }

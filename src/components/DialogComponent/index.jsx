@@ -15,7 +15,7 @@ import TextField from "@material-ui/core/TextField";
 import Tooltip from "@material-ui/core/Tooltip";
 
 
-class DialogComponent extends React.Component{
+export class DialogComponent extends React.Component{
     constructor(props){
         super(props)
         this.state = {
@@ -27,6 +27,7 @@ class DialogComponent extends React.Component{
                     regExp: /^\d+$/gi,
                     isCorrect: true,
                     hint: 'Только цифры',
+                    className: 'id',
                     value: ''
                 },
                 {
@@ -35,6 +36,7 @@ class DialogComponent extends React.Component{
                     regExp: /^[a-zA-Zа-яА-Я]+$/ig,
                     isCorrect: true,
                     hint: 'Только буквы без пробелов',
+                    className: 'firstName',
                     value: ''
                 },
                 {
@@ -43,6 +45,7 @@ class DialogComponent extends React.Component{
                     regExp: /^[a-zA-Zа-яА-Я]+$/ig,
                     isCorrect: true,
                     hint: 'Только буквы без пробелов',
+                    className: 'lastName',
                     value: ''
                 },
                 {
@@ -51,6 +54,7 @@ class DialogComponent extends React.Component{
                     regExp: /^(([^<>()\[\]\.,;:\s@\"]+(\.[^<>()\[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/gi,
                     isCorrect: true,
                     hint: 'Например: qwerty@gmail.com',
+                    className: 'email',
                     value: ''
                 },
                 {
@@ -59,6 +63,7 @@ class DialogComponent extends React.Component{
                     regExp: /^((\+7|7|8)+([0-9]){10})$/gi,
                     isCorrect: true,
                     hint: 'Например +79991235678 или 89991235678',
+                    className: 'phone',
                     value: ''
                 },
             ]
@@ -142,6 +147,7 @@ class DialogComponent extends React.Component{
                         {this.state.fields.map((field, index) => (
                             <ListItem key={index}>
                                 <TextField fullWidth
+                                           className={`DialogComponent_${field.className}`}
                                            error={!field.isCorrect}
                                            onChange={this.onChangeForm}
                                            helperText={field.hint}

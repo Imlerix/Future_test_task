@@ -1,5 +1,6 @@
 # Future_test_task
-Тестовое задание на позицию junior frontend разработчика `fugr-ru`
+Тестовое задание на позицию junior frontend разработчика<br>
+Описание задания: <a>https://github.com/fugr-ru/frontend-javascript-test</a>
 
 
 <h2>Запуск через Docker</h2>
