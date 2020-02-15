@@ -4,8 +4,8 @@
 
 
 <h2>Запуск через Docker</h2>
-1) `docker build -t sample:dev .`
-2) `docker run -v ${PWD}:/app -v /app/node_modules -p 3001:3000 --rm sample:dev` или `docker-compose up -d --build`
+1) ```docker build -t sample:dev .```
+2) ```docker run -v ${PWD}:/app -v /app/node_modules -p 3001:3000 --rm sample:dev``` или ```docker-compose up -d --build```
 
 <h2>Скришоты</h2>
 <h4>Внешний вид приложения</h4>
