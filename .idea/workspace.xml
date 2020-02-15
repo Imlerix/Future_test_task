@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb43f302-1d71-4069-8d96-e6f8c5b401cb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/DetailInfoComponent/index.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/DialogComponent/index.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SearchComponent/__snapshots__/index.test.js.snap" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SearchComponent/index.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/TableComponent/index.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/DetailInfoComponent/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DetailInfoComponent/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/DialogComponent/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DialogComponent/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SearchComponent/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SearchComponent/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,38 +15,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/DialogComponent/index.test.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="385">
-              <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="28" />
-              <folding>
-                <element signature="e#0#42#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/DetailInfoComponent/index.test.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="74" column="4" selection-start-line="74" selection-start-column="4" selection-end-line="74" selection-end-column="4" />
-              <folding>
-                <element signature="e#0#42#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/DetailInfoComponent/index.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="291">
-              <caret line="25" column="53" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="53" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="21">
+                <caret line="1" column="59" selection-start-line="1" selection-start-column="59" selection-end-line="1" selection-end-column="59" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -139,38 +102,6 @@
             <path>
               <item name="Future_test_task" type="b2602c69:ProjectViewProjectNode" />
               <item name="Future_test_task" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Future_test_task" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Future_test_task" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Future_test_task" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Future_test_task" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Future_test_task" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Future_test_task" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="DetailInfoComponent" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Future_test_task" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Future_test_task" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="DialogComponent" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Future_test_task" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Future_test_task" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="TableComponent" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -273,7 +204,7 @@
       <option name="presentableId" value="Default" />
       <updated>1581446087656</updated>
       <workItem from="1581446089061" duration="27191000" />
-      <workItem from="1581614549292" duration="22760000" />
+      <workItem from="1581614549292" duration="24469000" />
     </task>
     <task id="LOCAL-00001" summary="finish 0.0.1">
       <created>1581622839644</created>
@@ -303,17 +234,24 @@
       <option name="project" value="LOCAL" />
       <updated>1581626645497</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add testing files">
+      <created>1581709402882</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1581709402882</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49951000" />
+    <option name="totallyTimeSpent" value="51660000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="805" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15450644" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15221988" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -330,7 +268,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info active="true" anchor="right" id="Run" order="3" visible="true" weight="0.35622317" />
+      <window_info anchor="right" id="Run" order="3" weight="0.35622317" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -341,7 +279,8 @@
     <MESSAGE value="add switch between data sizes" />
     <MESSAGE value="change .gitignore" />
     <MESSAGE value="change photos" />
-    <option name="LAST_COMMIT_MESSAGE" value="change photos" />
+    <MESSAGE value="Add testing files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add testing files" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/qwe/package-lock.json" />
@@ -585,16 +524,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="21">
-            <caret line="1" column="59" selection-start-line="1" selection-start-column="59" selection-end-line="1" selection-end-column="59" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/SearchComponent/__snapshots__/index.test.js.snap">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -629,13 +558,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/DialogComponent/__snapshots__/index.test.js.snap">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="19" column="20" lean-forward="true" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/App.test.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
@@ -656,6 +578,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/DetailInfoComponent/index.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="74" column="4" selection-start-line="74" selection-start-column="4" selection-end-line="74" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/DetailInfoComponent/__snapshots__/index.test.js.snap">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/DialogComponent/__snapshots__/index.test.js.snap">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4024">
+          <caret line="22" column="17" lean-forward="true" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/DialogComponent/index.test.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="385">
@@ -665,9 +607,6 @@
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/DetailInfoComponent/__snapshots__/index.test.js.snap">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/DetailInfoComponent/index.jsx">
       <provider selected="true" editor-type-id="text-editor">
@@ -679,13 +618,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/DetailInfoComponent/index.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="74" column="4" selection-start-line="74" selection-start-column="4" selection-end-line="74" selection-end-column="4" />
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
-          </folding>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="21">
+            <caret line="1" column="59" selection-start-line="1" selection-start-column="59" selection-end-line="1" selection-end-column="59" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
