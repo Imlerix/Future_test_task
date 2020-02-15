@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fb43f302-1d71-4069-8d96-e6f8c5b401cb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="fb43f302-1d71-4069-8d96-e6f8c5b401cb" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -19,8 +17,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="231">
-                <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="42" />
+              <first_editor relative-caret-position="315">
+                <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
               </first_editor>
               <second_editor />
             </state>
@@ -129,6 +127,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/" />
       <recent name="$PROJECT_DIR$/photos" />
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -209,7 +208,7 @@
       <option name="presentableId" value="Default" />
       <updated>1581446087656</updated>
       <workItem from="1581446089061" duration="27191000" />
-      <workItem from="1581614549292" duration="24693000" />
+      <workItem from="1581614549292" duration="24938000" />
     </task>
     <task id="LOCAL-00001" summary="finish 0.0.1">
       <created>1581622839644</created>
@@ -253,11 +252,18 @@
       <option name="project" value="LOCAL" />
       <updated>1581726457211</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="edit README again (image path didnt work)">
+      <created>1581726749450</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1581726749450</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51884000" />
+    <option name="totallyTimeSpent" value="52129000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="805" extended-state="0" />
@@ -293,7 +299,8 @@
     <MESSAGE value="change photos" />
     <MESSAGE value="Add testing files" />
     <MESSAGE value="edit README" />
-    <option name="LAST_COMMIT_MESSAGE" value="edit README" />
+    <MESSAGE value="edit README again (image path didnt work)" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit README again (image path didnt work)" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/qwe/package-lock.json" />
@@ -634,8 +641,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="231">
-            <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="42" />
+          <first_editor relative-caret-position="315">
+            <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
           </first_editor>
           <second_editor />
         </state>
